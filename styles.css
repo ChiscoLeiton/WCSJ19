@@ -183,3 +183,12 @@ button, [type="button"], [type="reset"], [type="submit"] {
     background-color: #608c35 !important;
     padding: 10px 0 !important;
 }
+
+
+
+@media only screen and (max-width: 425px) {
+	.quote {
+	    width: 70%;
+	    margin: 50px 15% !important;
+	}
+}
