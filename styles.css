@@ -173,11 +173,8 @@ form#subscribe-blog-blog_subscription-3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-button, 
-[type="button"], 
-[type="reset"], 
-[type="submit"] {
-    background-color: #608c35;
+button, [type="button"], [type="reset"], [type="submit"] {
+    background-color: #608c35 !important;
 }
 
 #colophon .site-info {
