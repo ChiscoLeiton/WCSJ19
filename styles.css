@@ -155,9 +155,9 @@ h2:before {
 }
 
 #blog_subscription-3 {
-    width: 60% !important;
+    width: 100% !important;
     padding: 0 calc(1 * 12rem);
-	background-color: #7ba24d;
+    background-color: #7ba24d;
 }
 
 #blog_subscription-3 h2 {
