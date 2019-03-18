@@ -217,4 +217,8 @@ button, [type="button"], [type="reset"], [type="submit"] {
 	form#subscribe-blog-blog_subscription-3 {
 	    width: 100%;
 	}
+
+	#colophon .site-info {
+	    padding: 10px!important;
+	}
 }
