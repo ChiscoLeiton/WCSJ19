@@ -191,4 +191,30 @@ button, [type="button"], [type="reset"], [type="submit"] {
 	    width: 70%;
 	    margin: 50px 15% !important;
 	}
+
+	.venue-icon img {
+	    padding-left: 10%;
+	}
+
+	.venue-title {
+	    padding-left: 10%;
+	}
+
+	.venue-section p {
+	    padding-left: 10%;
+	}
+
+	.list-social li {
+	    width: 50%;
+   		padding-bottom: 30px;
+	}
+
+	#text-2,
+	#blog_subscription-3 {
+	    padding: 0 calc(1 * 1rem) !important;
+	}
+
+	form#subscribe-blog-blog_subscription-3 {
+	    width: 100%;
+	}
 }
