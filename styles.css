@@ -120,8 +120,9 @@ a {
     align-items: center;
     text-align: center;
     color: #b2e582;
-    font-size: .75em;
+    font-size: .95em;
     margin-bottom: 1.5rem;
+    text-transform: uppercase;
 }
 
 .sponsors-level:before, 
