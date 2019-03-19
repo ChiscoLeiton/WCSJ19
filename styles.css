@@ -110,6 +110,25 @@ a {
     width: 100% !important;
 }
 
+.sponsors-level {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #608c35;
+    font-size: .75em;
+    margin-bottom: 1.5rem;
+}
+
+.sponsors-level:before, 
+.sponsors-level:after {
+    content: '';
+    border-top: 1px dotted #7ba24d;
+    margin: 0 1.5rem 0 0;
+    flex: 1 0 1.5rem;
+}
+
 #colophon .widget-area, 
 #colophon .site-info {
     position: relative;
