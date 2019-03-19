@@ -113,7 +113,7 @@ a {
 .sponsors-level {
     display: flex;
     width: 50%;
-    margin: 0 25%;
+    margin: 0 25% !important;
     justify-content: center;
     align-items: center;
     text-align: center;
