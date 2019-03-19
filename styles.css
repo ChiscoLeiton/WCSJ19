@@ -106,6 +106,10 @@ a {
     text-align: center !important;
 }
 
+.sponsors-logo figure.aligncenter {
+    width: 100% !important;
+}
+
 #colophon .widget-area, 
 #colophon .site-info {
     position: relative;
