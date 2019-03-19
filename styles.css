@@ -16,7 +16,7 @@ a {
 }
 
 .home .entry .entry-content, 
-.home .entry .entry-summary {
+.home.entry .entry-summary {
     max-width: 100%;
     margin: 0;
     padding: 0;
@@ -106,8 +106,10 @@ a {
     text-align: center !important;
 }
 
-.sponsors-logo figure.aligncenter {
-    width: 100% !important;
+.sponsors-section {
+    width: 74%;
+    margin: 0 13% !important;
+	padding: 0 32px;
 }
 
 .sponsors-level {
@@ -128,6 +130,10 @@ a {
     border-top: 1px dotted #7ba24d;
     margin: 0 1.5rem 0 1.5rem;
     flex: 1 0 1.5rem;
+}
+
+.sponsors-logo figure.aligncenter {
+    width: 100% !important;
 }
 
 #colophon .widget-area, 
