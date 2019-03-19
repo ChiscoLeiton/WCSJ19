@@ -33,7 +33,7 @@ a {
 }
 
 .quote {
-	border: solid 1px #7ba24d;
+	border: solid 1px #0e8044;
 	padding: 25px;
 	width: 44%;
 	margin: 0 28% !important;
@@ -60,7 +60,7 @@ a {
 }
 
 .venue-section {
-	background-color: #7ba24d;
+	background-color: #0e8044;
 }
 
 .venue-icon img {
@@ -84,7 +84,7 @@ a {
 .sponsor-title,
 .qa-title {
     font-size: 1.25em;
-    color: #7ba24d;
+    color: #0e8044;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -100,7 +100,7 @@ a {
 }
 
 .hr-wcsj {
-    background-color: #7ba24d !important;
+    background-color: #0e8044 !important;
     max-width: 74% !important;
     margin: 2% 13% !important;
     text-align: center !important;
@@ -119,7 +119,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #608c35;
+    color: #b2e582;
     font-size: .75em;
     margin-bottom: 1.5rem;
 }
@@ -127,7 +127,7 @@ a {
 .sponsors-level:before, 
 .sponsors-level:after {
     content: '';
-    border-top: 1px dotted #7ba24d;
+    border-top: 1px dotted #0e8044;
     margin: 0 1.5rem 0 1.5rem;
     flex: 1 0 1.5rem;
 }
@@ -187,7 +187,7 @@ h2:before {
 #blog_subscription-3 {
     width: 100% !important;
     padding: 0 calc(1 * 12rem) !important;
-	background-color: #7ba24d;
+	background-color: #0e8044;
 }
 
 #blog_subscription-3 h2 {
@@ -204,13 +204,13 @@ form#subscribe-blog-blog_subscription-3 {
 }
 
 button, [type="button"], [type="reset"], [type="submit"] {
-    background-color: #608c35 !important;
+    background-color: #b2e582 !important;
 }
 
 #colophon .site-info {
     color: #fff !important;
     text-align: center;
-    background-color: #608c35 !important;
+    background-color: #b2e582 !important;
     padding: 10px 0 !important;
 }
 
