@@ -15,8 +15,11 @@ a {
     margin-top: 0;
     display: block;
     background-color: #d48cf8 !important;
-    position: relative;
-    top: 55vh;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    z-index: 9999;
+    padding: 20px 0 30px;
 }
 
 .site-header.featured-image:after {
