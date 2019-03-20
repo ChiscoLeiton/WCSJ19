@@ -29,7 +29,7 @@ a {
 .site-header.featured-image .site-title,
 .site-header.featured-image .site-description,
 .site-header.featured-image .main-navigation a {
-	color: #000;
+	color: #000 !important;
 	text-shadow: none;
 }
 
