@@ -26,8 +26,8 @@ a {
 	opacity: .2;
 }
 
-.site-title,
-.site-description,
+.site-header.featured-image .site-title,
+.site-header.featured-image .site-description,
 .site-header.featured-image .main-navigation a {
 	color: #000;
 	text-shadow: none;
