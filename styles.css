@@ -33,6 +33,10 @@ a {
 	text-shadow: none;
 }
 
+.site-header.featured-image .site-title {
+    padding-top: 10px;
+}
+
 .home .entry-title {
 	display: none;
 }
