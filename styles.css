@@ -26,6 +26,13 @@ a {
 	opacity: .2;
 }
 
+.site-title,
+.site-description,
+.site-header.featured-image .main-navigation a {
+	color: #000;
+	text-shadow: none;
+}
+
 .home .entry-title {
 	display: none;
 }
