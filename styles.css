@@ -11,6 +11,14 @@ a {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.site-branding-container {
+    margin-top: 0;
+    display: block;
+    background-color: #d48cf8 !important;
+    position: relative;
+    top: 55vh;
+}
+
 .site-header.featured-image:after {
 	opacity: .2;
 }
