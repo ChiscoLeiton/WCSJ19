@@ -233,6 +233,15 @@ button, [type="button"], [type="reset"], [type="submit"] {
 
 @media only screen and (max-width: 425px) {
 
+	.site-branding-container {
+	    left: 0;
+	    padding: 20px 15px 30px;
+	}
+
+	.site-branding-container .site-logo {
+		display: none;
+	}
+
 	.entry .entry-content, 
 	.entry .entry-summary {
 	    max-width: 90%;
