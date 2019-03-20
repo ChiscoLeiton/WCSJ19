@@ -23,8 +23,12 @@ a {
 	opacity: .2;
 }
 
+.home .entry-title {
+	display: none;
+}
+
 .home .entry .entry-content, 
-.home.entry .entry-summary {
+.home .entry .entry-summary {
     max-width: 100%;
     margin: 0;
     padding: 0;
@@ -105,7 +109,7 @@ a {
 
 .qa-section figure {
 	/* width: -webkit-fill-available !important; */
-	width: calc(3 * (100vw / 12) - 58px) !important;
+	width: calc(3 * (100vw / 12) - 58px);
 }
 
 .hr-wcsj {
