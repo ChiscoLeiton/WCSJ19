@@ -96,7 +96,8 @@ a {
 }
 
 .qa-section figure {
-	width: -webkit-fill-available !important;
+	/* width: -webkit-fill-available !important; */
+	width: calc(3 * (100vw / 12) - 58px) !important;
 }
 
 .hr-wcsj {
