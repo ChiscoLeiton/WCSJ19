@@ -207,6 +207,13 @@ h2:before {
     display: inline-block;
 }
 
+.list-social li#facebook a,
+.list-social li#twitter a,
+.list-social li#istagram a,
+.list-social li#meetup a {
+    color: #000;
+}
+
 .list-social li i {
     font-size: 2rem;
     padding-bottom: 20px;
