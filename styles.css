@@ -14,8 +14,8 @@ a {
 .site-branding-container {
     margin-top: 0;
     display: block;
-    background-color: #d48cf8 !important;
-    position: fixed;
+    background-color: #d48cf8;
+    position: absolute;
     bottom: 0px;
     width: 100vw;
     z-index: 9999;
@@ -112,7 +112,7 @@ a {
 
 .qa-section figure {
 	/* width: -webkit-fill-available !important; */
-	width: calc(3 * (100vw / 12) - 58px);
+	width: calc(3 * (100vw / 12) - 58px) !important;
 }
 
 .hr-wcsj {
