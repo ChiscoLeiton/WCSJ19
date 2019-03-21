@@ -140,8 +140,8 @@ a {
 }
 
 .sponsors-icon figure.aligncenter {
-    max-width: calc(12 * (100vw / 12) - 5px) !important;
-    width: 100%
+	max-width: calc(12 * (100vw / 12) - 5px) !important;
+	width: 100% !important;
 }
 
 .sponsors-level {
