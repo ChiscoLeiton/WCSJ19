@@ -139,7 +139,7 @@ a {
 	padding: 0 32px;
 }
 
-.sponsors-section .sponsors-icon .aligncenter {
+.sponsors-icon figure.aligncenter {
 	width: calc(12 * (100vw / 12) - 0px) !important;
 }
 
