@@ -136,11 +136,12 @@ a {
 .sponsors-section {
     width: 74%;
     margin: 0 13% !important;
-	padding: 0 32px;
+    padding: 0 32px;
 }
 
-.entry .entry-content .sponsors-icon .aligncenter {
-	width: calc(12 * (100vw / 12) - 5px) !important;
+.sponsors-icon figure.aligncenter {
+    max-width: calc(12 * (100vw / 12) - 5px) !important;
+    width: 100%
 }
 
 .sponsors-level {
