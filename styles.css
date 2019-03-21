@@ -151,10 +151,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #0e8044;
-    font-size: .95em;
     margin-bottom: 1.5rem;
-    text-transform: uppercase;
 }
 
 .sponsors-level:before, 
@@ -289,6 +286,11 @@ button, [type="button"], [type="reset"], [type="submit"] {
 
 	.venue-section p {
 	    padding-left: 10%;
+	}
+
+	.sponsors-level {
+	    width: 90%;
+	    margin: 0 5% !important;
 	}
 
 	.list-social li {
