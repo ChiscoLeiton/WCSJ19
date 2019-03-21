@@ -139,7 +139,7 @@ a {
 	padding: 0 32px;
 }
 
-.sponsors-icon figure.aligncenter {
+.entry .entry-content .wp-block-image.sponsors-icon figure.aligncenter {
 	width: calc(12 * (100vw / 12) - 0px) !important;
 }
 
