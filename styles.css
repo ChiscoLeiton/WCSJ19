@@ -139,8 +139,8 @@ a {
 	padding: 0 32px;
 }
 
-.entry .entry-content .wp-block-image.sponsors-icon figure.aligncenter {
-	width: calc(12 * (100vw / 12) - 0px) !important;
+.entry .entry-content .sponsors-icon .aligncenter {
+	width: calc(12 * (100vw / 12) - 5px) !important;
 }
 
 .sponsors-level {
