@@ -81,6 +81,17 @@ a {
     padding-bottom: 20px;
 }
 
+.site-footer .widget-area a {
+    -webkit-box-shadow:  none !important;
+    box-shadow: none !important;
+}
+
+.site-footer .widget-area a:hover {
+    -webkit-box-shadow:  none !important;
+    box-shadow: none !important;
+    color: #b2e582;
+}
+
 
 /* --------------------------------------------- Estilos - Inicio ----- */
 
