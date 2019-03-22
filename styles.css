@@ -55,7 +55,7 @@ a {
 
 #text-2 h2 {
 	text-align: center;
-	font-size: 1rem;
+	font-size: 1em;
 	color: #0e8044;
 }
 
@@ -78,7 +78,7 @@ a {
 }
 
 .list-social li i {
-    font-size: 1.75rem;
+    font-size: 1.75em;
     padding-bottom: 20px;
 }
 
@@ -124,7 +124,7 @@ a {
 
 #blog_subscription-3 h2,
 #recent-posts-3 h2 {
-	font-size: 1rem;
+	font-size: 1em;
 	color: #fff;
 }
 
@@ -272,22 +272,26 @@ body.home .entry-header {
 
 @media only screen and (max-width: 425px) {
 
-	.venue-icon img {
-	    padding-left: 10%;
+	.qa-section,
+	.info-section {
+		padding: 1em;
 	}
 
-	.venue-title {
-	    padding-left: 10%;
-	}
-
-	.venue-section p {
+	.venue-icon,
+	.venue-title,
+	.venue-name {
 	    padding-left: 10%;
 	}
 
 	.list-social li {
+		width: 100%;
 	    max-width: 80%;
 	    margin: 0 auto;
-   	    padding-bottom: 30px;
+   		padding: 30px;
+	}
+
+	.list-social li i {
+	    padding-bottom: 5px;
 	}
 
 	#text-2,
