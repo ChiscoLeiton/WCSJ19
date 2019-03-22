@@ -43,8 +43,39 @@ body.home .entry-header {
 	display: none;
 }
 
-.venue-section {
+.quote-section {
+	border: solid 1px #0e8044;
+	padding: 25px;
+	width: 40%;
+	margin: 0 auto;
+}
 
+.qa-title,
+.qa-section {
+	max-width: 1024px;
+    margin: 0 auto;
+}
+
+.ctas-section {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.ctas-section .wp-block-column {
+	margin: 0 32px 1em !important;
+}
+
+.info-section {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.venue-section {
+	background-color: #0e8044;
+}
+
+.venue-section .wp-block-column {
+	margin: 0 !important;
 }
 
 .venue-section .venue-icon {
