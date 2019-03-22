@@ -122,3 +122,24 @@ body.home .entry-header {
 	width: 100vw;
 }
 
+.sponsor-title {
+	color: #0e8044;
+	padding-bottom: 1em;
+	text-transform: uppercase;
+}
+
+.hr-wcsj {
+    background-color: #b2e582 !important;
+    max-width: 50% !important;
+}
+
+.sponsors-section {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.sponsors-section  .wp-block-column {
+	margin: 0 32px 1em !important;
+}
+
+
