@@ -1,6 +1,6 @@
 body {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
+	font-size: .95em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,6 +9,19 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
 	font-family: 'Montserrat', sans-serif;
+}
+
+body.colors-custom, .colors-custom .navigation-top, .colors-custom .main-navigation ul {
+	background: #d48cf8;
+	border-top-color: #D48CF5;
+}
+
+.colors-custom .navigation-top a {
+	color: #000000;
+}
+
+.colors-custom .navigation-top .current_page_item > a {
+	color: #ffffff;
 }
 
 .home .wrap {
