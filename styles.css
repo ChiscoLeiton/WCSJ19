@@ -1,3 +1,4 @@
+/* --------------------------------------------- Estilos Generales ----- */
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: .95em;
@@ -11,18 +12,32 @@ a {
 	font-family: 'Montserrat', sans-serif;
 }
 
-body.colors-custom, .colors-custom .navigation-top, .colors-custom .main-navigation ul {
+.navigation-top, 
+.main-navigation ul {
 	background: #d48cf8 !important;
 	border-top-color: #D48CF5 !important;
 }
 
-.colors-custom .navigation-top a {
+.navigation-top a {
 	color: #000000 !important;
 }
 
-.colors-custom .navigation-top .current_page_item > a {
+.navigation-top .current_page_item > a {
 	color: #ffffff !important;
 }
+
+.site-header .navigation-top .menu-scroll-down {
+    top: 0.1em !important;
+}
+
+#primary .entry-header,
+#primary .entry-content {
+	clear: both;
+	width: 100% !important;
+}
+
+
+/* --------------------------------------------- Estilos - Inicio ----- */
 
 .home .wrap {
     max-width: 100% !important;
@@ -31,12 +46,6 @@ body.colors-custom, .colors-custom .navigation-top, .colors-custom .main-navigat
 
 .home .entry-header {
 	display: none;
-}
-
-#primary .entry-header,
-#primary .entry-content {
-	clear: both;
-	width: 100% !important;
 }
 
 .venue-section {
