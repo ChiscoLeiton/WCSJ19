@@ -1,6 +1,6 @@
 body {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,15 +16,10 @@ a {
     padding: 0 !important;
 }
 
-#primary .entry-header,
-#primary .entry-content {
+.home #primary .entry-header,
+.home #primary .entry-content {
 	clear: both;
 	width: 100% !important;
-}
-
-.type-page {
-    width: 90%;
-    margin: 0 auto;
 }
 
 .venue-section {
