@@ -62,13 +62,13 @@ a {
 .list-social {
     list-style: none;
     text-align: center;
-    width: 1024px;
+    max-width: 1024px;
     margin: 0 auto !important;
 }
 
 .list-social li {
     width: 20%;
-    min-width: 20%;
+    max-width: 25%;
     padding: .5em 30px !important;
     display: inline-block;
 }
@@ -285,7 +285,8 @@ body.home .entry-header {
 	}
 
 	.list-social li {
-	    width: 50%;
+	    width: 80%;
+	    margin: 0 auto;
    		padding-bottom: 30px;
 	}
 
@@ -295,7 +296,9 @@ body.home .entry-header {
 	    width: 100%;
 	}
 
+	#blog_subscription-3 .widget-title,
 	#blog_subscription-3 form,
+	#recent-posts-3 .widget-title,
 	#recent-posts-3 ul {
 	    width: 100%;
 	}
