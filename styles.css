@@ -62,12 +62,13 @@ a {
     list-style: none;
     text-align: center;
     width: 1024px;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 
 .list-social li {
     width: 20%;
     min-width: 20%;
+    padding: 0.5em 30px;
     display: inline-block;
 }
 
