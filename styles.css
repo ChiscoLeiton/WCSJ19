@@ -281,9 +281,9 @@ body.home .entry-header {
 		padding: 1em;
 	}
 
-	.venue-icon,
-	.venue-title,
-	.venue-name {
+	.venue-section .venue-icon,
+	.venue-section .venue-title,
+	.venue-section .venue-name {
 	    padding-left: 10%;
 	}
 
