@@ -110,6 +110,21 @@ a {
 	min-height: 45vh;
 }
 
+.site-info {
+    float: none;
+    padding: 1em 0;
+    width: 100%;
+    color: #fff !important;
+    text-align: center;
+    background-color: #08302f !important;
+    margin-bottom: 0 !important;
+}
+
+.site-info a {
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
 
 .site-footer .widget-area a {
     -webkit-box-shadow:  none !important;
