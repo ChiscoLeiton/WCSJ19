@@ -50,6 +50,20 @@ body.home .entry-header {
 	margin: 0 auto;
 }
 
+.btn-wcsj {
+	text-transform: uppercase;
+}
+
+.qa-title {
+	color: #0e8044;
+	padding-bottom: 1em;
+	text-transform: uppercase;
+}
+
+.qa-section {
+	padding-bottom: 1em;
+}
+
 .qa-title,
 .qa-section {
 	max-width: 1024px;
@@ -84,6 +98,10 @@ body.home .entry-header {
 
 .venue-section .venue-icon {
 	padding: 20% 0 0 20%;
+}
+
+.venue-section .venue-title {
+	text-transform: uppercase;
 }
 
 .venue-section .venue-title,
