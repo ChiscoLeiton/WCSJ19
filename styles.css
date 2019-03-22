@@ -16,6 +16,10 @@ a {
     padding: 0 !important;
 }
 
+.home .entry-header {
+	display: none;
+}
+
 #primary .entry-header,
 #primary .entry-content {
 	clear: both;
@@ -38,7 +42,7 @@ a {
 
 }
 
-.venue-section .venue-image {
-
+.venue-section .venue-image img {
+	width: 100vw;
 }
 
