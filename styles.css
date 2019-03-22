@@ -68,15 +68,12 @@ a {
 .list-social li {
     width: 20%;
     min-width: 20%;
-    padding: 0.5em 30px;
+    padding: .5em 30px !important;
     display: inline-block;
 }
 
-.list-social li#facebook a,
-.list-social li#twitter a,
-.list-social li#instagram a,
-.list-social li#meetup a {
-    color: #000;
+.list-social li a {
+    color: #000 !important;
 }
 
 .list-social li i {
