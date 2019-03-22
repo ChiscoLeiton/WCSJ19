@@ -93,6 +93,10 @@ a {
     float: right;
 }
 
+#blog_subscription-3 p {
+	color: #fff !important;
+}
+
 #recent-posts-3 {
     width: 42%;
     float: right;
@@ -103,11 +107,25 @@ a {
     width: 50%;
 }
 
+#recent-posts-3 ul li a {
+    color: #fff !important;
+}
+
+#recent-posts-3 ul li a:hover {
+    color: #000 !important;
+}
+
 #blog_subscription-3,
 #recent-posts-3 {
 	padding: 3em 2em 0;
 	background-color: #0e8044;
 	min-height: 45vh;
+}
+
+#blog_subscription-3 h2,
+#recent-posts-3 h2 {
+	font-size: 1rem;
+	color: #fff;
 }
 
 .site-info {
@@ -122,19 +140,19 @@ a {
 
 .site-info a {
 	color: #fff !important;
-	text-decoration: none !important;
 }
 
-
-.site-footer .widget-area a {
+.site-footer .widget-area a,
+.site-footer .site-info a {
     -webkit-box-shadow:  none !important;
     box-shadow: none !important;
 }
 
-.site-footer .widget-area a:hover {
+.site-footer .widget-area a:hover,
+.site-footer .site-info a:hover {
     -webkit-box-shadow:  none !important;
     box-shadow: none !important;
-    color: #d48cf8 !important;
+    color: #000 !important;
 }
 
 
