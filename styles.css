@@ -151,6 +151,10 @@ button:hover, button:focus, input[type="button"]:hover, input[type="button"]:foc
 	color: #fff !important;
 }
 
+a.imprint:after {
+    content: " \f120";
+}
+
 .site-footer .widget-area a,
 .site-footer .site-info a {
     -webkit-box-shadow:  none !important;
