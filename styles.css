@@ -33,10 +33,10 @@ a {
 
 /* --------------------------------------------- Estilos - Inicio ----- */
 
-/*.home .wrap {
+.home .wrap {
     max-width: 100% !important;
     padding: 0 !important;
-}*/
+}
 
 .home .entry-header {
 	display: none;
