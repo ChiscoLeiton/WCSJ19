@@ -268,3 +268,37 @@ body.home .entry-header {
 }
 
 
+/* --------------------------------------------- Mediaqueries ----- */
+
+@media only screen and (max-width: 425px) {
+
+	.venue-icon img {
+	    padding-left: 10%;
+	}
+
+	.venue-title {
+	    padding-left: 10%;
+	}
+
+	.venue-section p {
+	    padding-left: 10%;
+	}
+
+	.list-social li {
+	    width: 50%;
+   		padding-bottom: 30px;
+	}
+
+	#text-2,
+	#blog_subscription-3,
+	#recent-posts-3 {
+	    width: 100%;
+	}
+
+	#blog_subscription-3 form,
+	#recent-posts-3 ul {
+	    width: 100%;
+	}
+}
+
+
