@@ -119,7 +119,7 @@ a {
 #recent-posts-3 {
 	padding: 3em 2em 0;
 	background-color: #0e8044;
-	min-height: 45vh;
+	min-height: 50vh;
 }
 
 #blog_subscription-3 h2,
@@ -152,7 +152,7 @@ a {
 .site-footer .site-info a:hover {
     -webkit-box-shadow:  none !important;
     box-shadow: none !important;
-    color: #000 !important;
+    color: #b2e582 !important;
 }
 
 
