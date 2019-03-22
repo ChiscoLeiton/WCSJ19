@@ -153,6 +153,7 @@ button:hover, button:focus, input[type="button"]:hover, input[type="button"]:foc
 
 a.imprint:after {
     content: url(https://2019.sanjose.wordcamp.org/files/2019/03/wordpress-icon.png);
+    padding-left: 15px;
 }
 
 .site-footer .widget-area a,
