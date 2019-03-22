@@ -65,6 +65,10 @@ body.home .entry-header {
 	margin: 0 32px 1em !important;
 }
 
+.ctas-section .img-hover:hover {
+	opacity: .75;
+}
+
 .info-section {
     max-width: 1024px;
     margin: 0 auto;
@@ -79,19 +83,21 @@ body.home .entry-header {
 }
 
 .venue-section .venue-icon {
-
+	padding: 20% 0 0 20%;
 }
 
-.venue-section .venue-title {
-
-}
-
+.venue-section .venue-title,
 .venue-section .venue-name {
-
+	padding-left: 20%;
+    color: #ffffff;
 }
 
 .venue-section .venue-image {
 	margin-bottom: 0 !important;
+}
+
+.venue-section .venue-image figure {
+	margin-bottom: -6px !important;
 }
 
 .venue-section .venue-image img {
