@@ -87,15 +87,27 @@ a {
     float: left;
 }
 
+#blog_subscription-3 .widget-title,
+#blog_subscription-3 form {
+    width: 70%;
+    float: right;
+}
+
 #recent-posts-3 {
     width: 42%;
     float: right;
 }
 
+#recent-posts-3 .widget-title,
+#recent-posts-3 ul {
+    width: 50%;
+}
+
 #blog_subscription-3,
 #recent-posts-3 {
 	padding: 3em 2em 0;
-	background-color: #f8f8f8;
+	background-color: #0e8044;
+	min-height: 45vh;
 }
 
 
