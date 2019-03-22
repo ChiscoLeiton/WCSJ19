@@ -26,10 +26,9 @@ a {
 	color: #ffffff !important;
 }
 
-.site-header .navigation-top .menu-scroll-down {
+/*.site-header .navigation-top .menu-scroll-down {
     top: 0.1em !important;
-}
-
+}*/
 
 .site-footer .wrap {
     max-width: 100% !important;
@@ -95,6 +94,12 @@ a {
 
 #blog_subscription-3 p {
 	color: #fff !important;
+}
+
+button, html [type="button"], [type="reset"], [type="submit"]{
+    background-color: #08302f;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 
 #recent-posts-3 {
