@@ -11,7 +11,8 @@ a {
 	font-family: 'Montserrat', sans-serif;
 }
 
+#primary .entry-header,
 #primary .entry-content {
 	clear: both;
-	width: 100%;
+	width: 100% !important;
 }
