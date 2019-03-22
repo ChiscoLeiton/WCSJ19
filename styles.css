@@ -272,6 +272,10 @@ body.home .entry-header {
 
 @media only screen and (max-width: 425px) {
 
+	.quote-section {
+	    width: 90%;	
+	}
+
 	.qa-section,
 	.info-section {
 		padding: 1em;
