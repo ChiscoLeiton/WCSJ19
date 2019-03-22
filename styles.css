@@ -285,9 +285,9 @@ body.home .entry-header {
 	}
 
 	.list-social li {
-	    width: 80%;
+	    max-width: 80%;
 	    margin: 0 auto;
-   		padding-bottom: 30px;
+   	    padding-bottom: 30px;
 	}
 
 	#text-2,
