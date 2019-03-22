@@ -12,16 +12,16 @@ a {
 }
 
 body.colors-custom, .colors-custom .navigation-top, .colors-custom .main-navigation ul {
-	background: #d48cf8;
-	border-top-color: #D48CF5;
+	background: #d48cf8 !important;
+	border-top-color: #D48CF5 !important;
 }
 
 .colors-custom .navigation-top a {
-	color: #000000;
+	color: #000000 !important;
 }
 
 .colors-custom .navigation-top .current_page_item > a {
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 .home .wrap {
