@@ -30,19 +30,13 @@ a {
     top: 0.1em !important;
 }
 
-#primary .entry-header,
-#primary .entry-content {
-	clear: both;
-	width: 100% !important;
-}
-
 
 /* --------------------------------------------- Estilos - Inicio ----- */
 
-.home .wrap {
+/*.home .wrap {
     max-width: 100% !important;
     padding: 0 !important;
-}
+}*/
 
 .home .entry-header {
 	display: none;
