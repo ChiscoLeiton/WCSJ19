@@ -1,6 +1,6 @@
 body {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1rem;
+	font-size: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,6 +40,10 @@ a {
 
 .venue-section .venue-name {
 
+}
+
+.venue-section .venue-image {
+	margin-bottom: 0 !important;
 }
 
 .venue-section .venue-image img {
