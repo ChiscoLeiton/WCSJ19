@@ -33,7 +33,7 @@ a {
 
 /* --------------------------------------------- Estilos - Inicio ----- */
 
-.home .page-one-column .panel-content .wrap {
+body.home .page-one-column .panel-content .wrap {
     max-width: 100% !important;
 }
 
