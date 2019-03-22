@@ -102,6 +102,10 @@ button, html [type="button"], [type="reset"], [type="submit"]{
     text-transform: uppercase;
 }
 
+button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+    background: #b2e582;
+}
+
 #recent-posts-3 {
     width: 42%;
     float: right;
