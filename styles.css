@@ -41,7 +41,8 @@ a {
     padding-top:  0 !important;
 }
 
-.site-footer .widget-column.footer-widget-1 {
+.site-footer .widget-column.footer-widget-1,
+.site-footer .widget-column.footer-widget-2 {
     clear: both !important;
     width: 100% !important;
 }
@@ -80,6 +81,23 @@ a {
     font-size: 1.75rem;
     padding-bottom: 20px;
 }
+
+#blog_subscription-3 {
+    width: 58%;
+    float: left;
+}
+
+#recent-posts-3 {
+    width: 42%;
+    float: right;
+}
+
+#blog_subscription-3,
+#recent-posts-3 {
+	padding: 3em 2em 0;
+	background-color: #f8f8f8;
+}
+
 
 .site-footer .widget-area a {
     -webkit-box-shadow:  none !important;
