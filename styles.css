@@ -15,7 +15,7 @@ a {
 .navigation-top, 
 .main-navigation ul {
 	background: #d48cf8 !important;
-	border-top-color: #D48CF5 !important;
+	border-top-color: #d48cf8 !important;
 }
 
 .navigation-top a {
@@ -89,7 +89,7 @@ a {
 .site-footer .widget-area a:hover {
     -webkit-box-shadow:  none !important;
     box-shadow: none !important;
-    color: #b2e582;
+    color: #d48cf8 !important;
 }
 
 
