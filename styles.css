@@ -228,7 +228,7 @@ body.home .entry-header {
 }
 
 .ctas-section .wp-block-column {
-	margin: 0 32px 1em !important;
+    margin: 0 15px .5em !important;
 }
 
 .ctas-section .img-hover:hover {
