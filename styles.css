@@ -4,7 +4,11 @@ body {
 	font-size: .95em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -20,6 +24,9 @@ a {
 
 .navigation-top a {
 	color: #000000 !important;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1em;
 }
 
 .navigation-top .current_page_item > a {
