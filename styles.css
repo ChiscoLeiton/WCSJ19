@@ -317,6 +317,13 @@ body.home .entry-header {
 }
 
 
+/* --------------------------------------------- Contacto --------- */
+
+.contact-form textarea {
+    width: 88% !important;
+}
+
+
 /* --------------------------------------------- Mediaqueries ----- */
 
 @media only screen and (max-width: 425px) {
