@@ -340,9 +340,9 @@ body.home .entry-header {
     display: block;
 }
 
-.wcorg-sponsor-level-oro,
-.wcorg-sponsor-level-plata,
-.wcorg-sponsor-level-bronce {
+.wcorg-sponsor-level-oro h2,
+.wcorg-sponsor-level-plata h2,
+.wcorg-sponsor-level-bronce h2 {
     margin: 0 auto;
     width: 180px;
     padding-bottom: 30px;
