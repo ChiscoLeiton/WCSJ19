@@ -324,6 +324,44 @@ body.home .entry-header {
 }
 
 
+/* --------------------------------------------- Patrocinadores --- */
+
+.wcorg-sponsor-description {
+    padding-bottom: 60px;
+}
+
+.wcorg-sponsor h3 {
+    color: #b2e582;
+    text-transform: uppercase;
+}
+
+.wcorg-sponsors img {
+    padding-bottom: 30px;
+    display: block;
+}
+
+.wcorg-sponsor-level-oro,
+.wcorg-sponsor-level-plata,
+.wcorg-sponsor-level-bronce {
+    margin: 0 auto;
+    width: 180px;
+    padding-bottom: 30px;
+	
+}
+
+.wcorg-sponsor-level-oro h2 {
+    content: url(https://2019.sanjose.wordcamp.org/files/2019/03/quetzal-sponsor.png);
+}
+
+.wcorg-sponsor-level-plata h2 {
+    content: url(https://2019.sanjose.wordcamp.org/files/2019/03/manati-sponsor.png);
+}
+
+.wcorg-sponsor-level-bronce h2 {
+    content: url(https://2019.sanjose.wordcamp.org/files/2019/03/danta-sponsor.png);
+}
+
+
 /* --------------------------------------------- Mediaqueries ----- */
 
 @media only screen and (max-width: 425px) {
