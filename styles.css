@@ -28,6 +28,11 @@ a {
 	border-top-color: #d48cf8 !important;
 }
 
+.main-navigation li li:hover, 
+.main-navigation li li.focus {
+    background: #fff !important;
+}
+
 .navigation-top a {
 	color: #000000 !important;
     font-family: 'Oswald', sans-serif;
