@@ -338,6 +338,7 @@ body.home .entry-header {
 .wcorg-sponsors img {
     padding-bottom: 30px;
     display: block;
+    margin: 0 auto;
 }
 
 .wcorg-sponsor-level-oro h2,
