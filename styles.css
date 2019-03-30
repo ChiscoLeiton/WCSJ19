@@ -216,6 +216,13 @@ body.home .wp-custom-header:before {
 	}
 }
 
+@media only screen and (max-width: 425px) {
+	body.home .wp-custom-header:before {
+	    content: url(https://2019.sanjose.wordcamp.org/files/2019/03/date-header-home-temp-mobile.png);
+	}
+
+}
+
 
 /* ---------------------------------- Animación Cabecera - Internas ----- */
 
@@ -250,6 +257,13 @@ body:not(.home) .wp-custom-header:before {
 	}
 }
 
+@media only screen and (max-width: 425px) {
+	body.home .wp-custom-header:before {
+	    content: url(https://2019.sanjose.wordcamp.org/files/2019/03/date-header-intern-temp-mobile.png);
+    	right: 1%;
+	}
+
+}
 
 
 /* --------------------------------------------- Estilos - Inicio ----- */
