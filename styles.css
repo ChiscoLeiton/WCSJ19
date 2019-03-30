@@ -188,6 +188,36 @@ a.imprint:after {
 }
 
 
+/* ---------------------------------- Animación Cabecera - Inicio ----- */
+
+
+body.home .wp-custom-header:before {
+    content: url(https://2019.sanjose.wordcamp.org/files/2019/03/date-header-home-temp.png);
+    position: absolute;
+    z-index: 1; 
+    right: 50%;
+    top: 50%;
+	transform: translate(-50%, -50%);
+    animation-duration: 3s;
+	animation-iteration-count: infinite;
+    animation-name: floating-home;
+}
+
+@keyframes floating-home {
+	0% {
+    top: 50%;
+  }
+
+  50% {
+    top: 51%;
+  }
+	
+	100% {
+		top: 50%;
+	}
+}
+
+
 /* --------------------------------------------- Estilos - Inicio ----- */
 
 body.home .panel-content .wrap {
