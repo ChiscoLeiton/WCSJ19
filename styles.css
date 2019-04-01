@@ -469,7 +469,7 @@ body.home .entry-header {
 
 .tix-attendee-list img.avatar.avatar-96.photo {
 	border-radius: 50%;
-	border: solid 4px #5bceb1;
+	border: solid 4px #08302f;
 }
 
 #tix-attendees .avatar {
@@ -534,6 +534,7 @@ span.tix-first {
 .tix-field {
 	margin-left: 0 !important;
 	text-align: center;
+	border-bottom: none !important;
 }
 
 a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
