@@ -462,6 +462,725 @@ body.home .entry-header {
 
 /* ------------------------------------------------- Asistentes --- */
 
+#page {
+	overflow: hidden;
+}
+
+.wcorg-sponsor-description img {
+}
+
+.post-191 .panel-image:after {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+/* background-color: #5BCDB1; */
+	opacity: 1;
+	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/cloudsAsset-4-2.png');
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.page:not(.home) #content {
+	padding-bottom: 0 !important;
+}
+
+.background-fixed .panel-image {
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
+	border: none;
+}
+
+.custom-header {
+	overflow: hidden;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0 50%;
+	}
+	
+	50% {
+		background-position: 100% 50%;
+	}
+	
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0 50%;
+	}
+	
+	50% {
+		background-position: 100% 50%;
+	}
+	
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0 50%;
+	}
+	
+	50% {
+		background-position: 100% 50%;
+	}
+	
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+.site-header::before {
+	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/cloudsAsset-header.png');
+	background-size: contain;
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	bottom: 72px;
+}
+
+.custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img, body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
+	max-width: 100%;
+	min-width: 500px;
+	min-height: 167px;
+}
+
+@keyframes hovering {
+	0% {
+		transform: translate(0,0px);
+	}
+	
+	50% {
+		transform: translate(0,2%);
+	}
+	
+	100% {
+		transform: translate(0,0px);
+	}
+}
+
+@keyframes slideIn {
+	0% {
+		transform: translate(2000px,-800px);
+	}
+	
+	60% {
+		transform: translate(450px,-280px);
+	}
+	
+	100% {
+		transform: translate(0,0);
+	}
+}
+
+.site-branding {
+	animation-name: slideIn, hovering;
+	animation-duration: 1s, 5s;
+	animation-timing-function: ease-out, ease-in-out;
+	animation-delay: 1s, 10s;
+	animation-iteration-count: 1, infinite;
+	animation-direction: normal, normal;
+	animation-fill-mode: backwards, none;
+	transform: translate3d(0,0,0);
+}
+
+.site-branding a:hover {
+	opacity: 1;
+}
+
+.main-navigation li li:hover,
+	.main-navigation li li.focus {
+	background: #172286;
+}
+
+.site-branding:after {
+	position: absolute;
+	animation: clouds 360s linear 2s infinite;
+	animation-direction: alternate;
+	content: '';
+	display: block;
+	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/cloudsAsset-6.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 600px;
+	height: 100px;
+	right: -60vw;
+	top: 10px;
+	z-index: -1;
+	opacity: 1;
+}
+
+@keyframes clouds {
+	0% {
+		right: -60vw;
+		top: 10px;
+	}
+	
+	30%, 60% {
+		right: 150vw;
+		width: 800px;
+		top: 25px;
+	}
+}
+
+header.site-header:after {
+	position: absolute;
+	animation: clouds2 720s linear 2s infinite;
+	animation-direction: alternate;
+	content: '';
+	display: block;
+	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/cloudsAsset-6.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 900px;
+	height: 300px;
+	right: -100vw;
+	top: 25vh;
+	z-index: 1;
+	opacity: 5;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: FlipH;
+}
+
+@keyframes clouds2 {
+	0% {
+		right: -100vw;
+		top: 25vh;
+	}
+	
+	30%, 60% {
+		right: 150vw;
+		width: 800px;
+		top: 50vh;
+	}
+}
+
+/*
+.custom-header {
+	background: url('https://2018.sanjose.wordcamp.org/files/2018/03/stars-1.png')repeat-x;
+	background-size: 50%;
+}
+*/
+.custom-header:before {
+	position: absolute;
+	animation: satellite 60s linear 2s infinite;
+	content: '';
+	display: block;
+	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/cloudsAsset-4.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100px;
+	height: 200px;
+	right: 100px;
+	top: 10vh;
+	z-index: 1;
+}
+
+@keyframes satellite {
+	0% {
+		top: 10vh;
+		right: 100px;
+	}
+	
+	30%,60% {
+		top: 15vh;
+		right: 100px;
+	}
+	
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	
+	to {
+		-webkit-transform: rotate(600deg);
+	}
+}
+
+.navigation-top .wrap {
+	max-width: 80%;
+}
+
+.wrap, .content-area {
+	max-width: 80% !important;
+}
+
+.home .content-area {
+	max-width: 100% !important;
+}
+
+.home .entry-header {
+	display: none;
+}
+
+.home .wcorg-sponsor-description p,.home .wcorg-sponsor-description div,.home .wcorg-sponsor-description ul, .home .wcorg-sponsor h3,.single-featured-image-header {
+	display: none;
+}
+
+.panel-image {
+	height: 100vh;
+	max-height: 500px;
+	background-size: 100%;
+}
+
+.navigation-top {
+	background: #30398e;
+	border-top: 1px solid #000;
+}
+
+.main-navigation ul li.menu-item-has-children:before,
+
+	.main-navigation ul li.page_item_has_children:before,
+.main-navigation ul li.page_item_has_children:after {
+	border-color: #30398e;
+}
+
+.site-header {
+	background: #f0f9ff;
+	background: -moz-linear-gradient(top,#f0f9ff 0%,#DDF2FF 47%,#DDF2FF 100%) !important;
+	background: -webkit-linear-gradient(top,#f0f9ff 0%,#DDF2FF 47%,#DDF2FF 100%) !important;
+	background: linear-gradient(to bottom,#f0f9ff 0%,#DDF2FFf 47%,#DDF2FF 100%);
+}
+
+.sjwc2018-row {
+	display: grid;
+	grid-column-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 50px;
+}
+
+body.home article:not(.post-197) .entry-content {
+	padding-bottom: 5vh;
+}
+
+.panel-content:first-child {
+	background: url('https://2018.sanjose.wordcamp.org/files/2018/03/cloudsAsset-7.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
+	padding-bottom: 250px;
+	min-height: 100vh;
+}
+
+section#facebook-likebox-2 {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.entry-content h2, .sjwc2018-row h3, .wcsj__workshop--extra-content h3, h1.entry-title, h3.entry-title a, h1, h2, h3, h4 {
+	font-weight: 800 !important;
+	color: #30398d !important;
+	text-transform: uppercase !important;
+}
+
+h1.entry-title {
+	text-align: center;
+	font-size: 2rem !important;
+	letter-spacing: 0 !important;
+}
+
+.sjwc2018-row .column-1-3 {
+	text-align: center;
+}
+
+.sjwc2018-row .column-1-3 img {
+	max-width: 75px;
+}
+
+.sjwc2018-row .column-1-3 p:empty {
+	display: none;
+}
+
+ul#top-menu {
+	text-align: center;
+}
+
+ul#top-menu li a {
+	text-transform: uppercase;
+}
+
+body.home .wcorg-sponsors {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr;
+}
+
+/* WorkShops*/
+.wcsj__workshops {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr;
+	grid-template-rows: 250px 250px 250px;
+}
+
+.wcsj__workshop-item {
+	width: 100%;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item-pic {
+	text-align: center;
+}
+
+.item-pic img {
+	width: 75%;
+	max-width: 100%;
+}
+
+.item-excerpt {
+	grid-column: span 2;
+	align-self: center;
+	justify-self: center;
+}
+
+.item-excerpt h3 {
+	font-weight: 800;
+	color: #2E3482;
+}
+
+.wcsj__workshop-item:nth-child(2) {
+	grid-template-rows: 300px;
+}
+
+.wcsj__workshop-item:nth-child(2) .item-excerpt {
+	grid-row-start: 1;
+	grid-column: span 2;
+	order: 1;
+	text-align: right;
+}
+
+.wcsj__workshop-item:nth-child(2) .item-pic {
+}
+
+.site-content:after {
+	display: block;
+	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/cloudsAsset-15.png');
+	content: ' ';
+	width: 100%;
+	height: 200px;
+	background-size: contain;
+	z-index: 1024;
+	background-position: center bottom;
+	margin-bottom: -45px;
+}
+
+.wcsj__workshop--extra-content {
+	margin-top: 50px;
+	text-align: center;
+}
+
+footer#colophon {
+	background-color: #5CCDB1;
+	border: none;
+	color: #2E3482 !important;
+}
+
+footer h2 {
+	color: white !important;
+}
+
+.footer-widget-1 input[type="submit"] {
+	background-color: #2E3482;
+}
+
+#subscribe-email, #subscribe-submit {
+	width: 50%;
+	float: left;
+}
+
+#subscribe-email input, #subscribe-submit input {
+	height: 50px;
+	width: 100%;
+	border-radius: 0;
+}
+
+.site-info {
+	float: none;
+	padding: .7em 0 0;
+	width: 100%;
+	text-align: center;
+}
+
+.site-info a {
+	color: #2E3482 !important;
+}
+
+footer a {
+	text-decoration: none !important;
+	border-bottom: none;
+	box-shadow: none !important;
+	color: white;
+}
+
+article.post-361 {
+	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/cloudsAsset-14.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center 50px;
+}
+
+/* Contacto*/
+form.contact-form.commentsblock {
+	width: 80%;
+	margin: 0 auto;
+}
+
+form.contact-form.commentsblock input:not(.pushbutton-wide), form.contact-form.commentsblock textarea {
+	width: 100%;
+	max-width: 100%;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 769px) {
+	.site-branding a {
+		margin: 25vh;
+		text-align: center;
+		width: 100%;
+		z-index: 1024;
+	}
+	
+	.main-navigation ul ul {
+		background: #30398e;
+	}
+	
+	.site-header .navigation-top .menu-scroll-down,.main-navigation a {
+		color: #fff;
+	}
+	
+	.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+		color: #fff;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img, body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
+		max-width: 100%;
+		min-width: 320px;
+		min-height: 107px;
+	}
+	
+	.custom-header-media::before {
+		background: transparent;
+		bottom: 0;
+		content: "";
+		display: block;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		right: 0;
+		z-index: 2;
+	}
+	
+	.site-branding a {
+		margin: 25vh 0 25vh -6vh;
+		text-align: center;
+		width: 150%;
+		z-index: 1024;
+	}
+	
+	.main-navigation ul ul {
+		background: #30398e14;
+	}
+	
+	.site-header .navigation-top .menu-scroll-down,.main-navigation a {
+		color: #30398e;
+	}
+	
+	.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+		color: white;
+	}
+	
+	.sub-menu .toggled-on {
+		background-color: #fff !important;
+	}
+	
+	.menu-toggle {
+		color: #fff;
+	}
+	
+	.main-navigation li li:hover,
+																																																																																													.main-navigation li li.focus {
+		background: #172286;
+	}
+	
+	.main-navigation li {
+		border: none;
+	}
+	
+	.main-navigation li a {
+		color: white;
+		font-size: 12px;
+	}
+	
+	svg.icon.icon-angle-down {
+		fill: white;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.site-branding a {
+		margin: 1rem;
+		width: initial;
+		text-align: right;
+		padding-bottom: 40px;
+		padding-right: 0;
+		vertical-align: top;
+		margin-bottom: 0;
+	}
+	
+	.custom-header:before {
+		animation: none;
+		width: 25px;
+		height: 25px;
+		right: 20px;
+		top: 10px;
+	}
+	
+	.site-branding:after, header.site-header:after {
+		content: none;
+	}
+	
+	.custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img, body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
+		max-width: 30%;
+		min-width: 200px;
+		min-height: 67px;
+	}
+	
+	.site-branding .wrap {
+		width: 100%;
+		max-width: 100% !important;
+		padding: 0;
+		text-align: right;
+	}
+	
+	.panel-content .wrap {
+		max-width: 100% !important;
+	}
+	
+	.site-branding {
+		animation: none;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	
+	.site-header::before {
+		bottom: initial;
+		top: -520px;
+	}
+	
+	ul#top-menu {
+		background: transparent;
+		border: none;
+	}
+	
+	.main-navigation li {
+		border: none;
+	}
+	
+	.sjwc2018-row {
+		grid-template-columns: 1fr;
+	}
+	
+	.wcsj__workshops {
+		grid-template-rows: 300px;
+	}
+	
+	.wcsj__workshop-item {
+		grid-template-columns: 1fr;
+	}
+	
+	.wcsj__workshop-item:nth-child(2) .item-excerpt {
+		grid-row-start: 2;
+		grid-column: 1;
+		order: initial;
+		text-align: center;
+		margin-top: 30px;
+	}
+	
+	.item-excerpt {
+		grid-column: span 1;
+		align-self: center;
+		justify-self: center;
+		text-align: center;
+	}
+	
+	.wcsj__workshop-item:nth-child(2) .item-pic {
+		margin-top: 80px;
+	}
+	
+	.panel-content:first-child {
+		padding-bottom: 100px;
+	}
+	
+	body.home .wcorg-sponsors {
+		grid-template-columns: 1fr;
+	}
+	
+	.site-content:after {
+		margin-bottom: 0;
+		background-repeat: no-repeat;
+	}
+	
+	.panel-image {
+		background-size: cover;
+		background-position: right;
+	}
+	
+	.page:not(.home) #content {
+		padding-bottom: 0;
+	}
+}
+
+.home article.post-10 .panel-content {
+	background: transparent;
+}
+
+.home article.post-191 .entry-header {
+	display: initial;
+}
+
+@media only screen and (max-width: 414px) {
+	.site-header::before {
+		bottom: 54px;
+		top: initial;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.site-header::before {
+		bottom: 54px;
+		top: initial;
+	}
+}
+
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+	.site-header::before {
+		bottom: 54px;
+		top: initial;
+	}
+}
+
 .tix-attendee-list li {
 	border: none !important;
 	padding: 10px !important;
@@ -480,17 +1199,17 @@ body.home .entry-header {
 	float: none;
 }
 
-#tix-attendees .tix-columns-3 li:nth-child(even) {
+#tix-attendees .tix-columns-4 li:nth-child(even) {
 	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-logoAsset-8.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/card-chauAsset-9.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-logoAsset-6.png');
 	background-position: 50% 95%, top, 94% 44%;
 	background-size: 37%, contain, 27%;
 }
 
-#tix-attendees .tix-columns-3 li:nth-child(5n+3) {
+#tix-attendees .tix-columns-4 li:nth-child(5n+3) {
 	background-position: 50% 95%, top, 7% 64%;
 }
 
-#tix-attendees .tix-columns-3 li:nth-child(4n+1) {
+#tix-attendees .tix-columns-4 li:nth-child(4n+1) {
 	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-logoAsset-8.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/card-chauAsset-9.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-logoAsset-6.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-linesAsset-7.png');
 	background-position: 50% 95%, top, 7% 64%, 10% 70%;
 }
@@ -502,7 +1221,7 @@ span.tix-first {
 	font-weight: 900;
 }
 
-#tix-attendees .tix-columns-3 li {
+#tix-attendees .tix-columns-4 li {
 	min-height: 385px;
 	padding: 1rem !important;
 	padding-bottom: 6rem !important;
@@ -517,14 +1236,14 @@ span.tix-first {
 	margin-right: 1rem !important;
 }
 
-#tix-attendees .tix-columns-3 li:nth-child(4n+1) {
+#tix-attendees .tix-columns-4 li:nth-child(4n+1) {
 	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-logoAsset-8.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/card-chauAsset-9.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-logoAsset-6.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-linesAsset-7.png');
 	background-position: 50% 95%, top, 7% 64%, 96% 78%;
 	background-size: 37%, contain, 15%, 30%;
 }
 
 .tix-field.tix-que-tema-te-interesa-mas {
-	/*display: none !important;*/
+	display: none !important;
 }
 
 .tix-field {
@@ -552,6 +1271,485 @@ span.tix-last {
 	font-size: 10px !important;
 	letter-spacing: 1px;
 	color: #01c1f3;
+}
+
+@media only screen and (max-width: 425px) {
+	.footer-widget-2 .widget-title {
+		text-align: center;
+	}
+	
+	.wrap, .content-area {
+		max-width: 100% !important;
+	}
+	
+	#tix-attendees .tix-columns-4 li {
+		width: 100% !important;
+	}
+	
+	#tix-attendees .tix-columns-4 li:nth-child(even) {
+		background-position: 50% 95%, top, 94% 52%;
+	}
+	
+	.post-10 .entry-content h3 {
+		text-align: center;
+		font-size: 2.5rem;
+	}
+}
+
+/* Sponsors Grid */
+.home .wcorg-sponsor-level-gold {
+	display: grid;
+	text-align: center;
+	grid-template-columns: 1fr 1fr;
+}
+
+.home div[class^="wcorg-sponsor-level-"] h2 {
+	text-shadow: initial !important;
+}
+
+.home .wcorg-sponsor-level-gold h2 {
+	background-color: gold;
+	color: white !important;
+	grid-column: 1 / span 2;
+}
+
+.home .wcorg-sponsor-level-silver {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+}
+
+.home .wcorg-sponsor-level-silver h2 {
+	grid-column: 1 / span 3;
+	background-color: silver;
+	color: white !important;
+}
+
+.home .wcorg-sponsor-level-bronze {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+}
+
+.home .wcorg-sponsor-level-bronze h2 {
+	grid-column: 1 / span 4;
+	background-color: #CD7F32;
+	color: white !important;
+}
+
+.home .wcorg-sponsor-description img {
+	max-width: 50%;
+}
+
+.entry-content h3, .entry-content h2, .entry-title a {
+	text-shadow: 1px 3px 0 powderblue;
+}
+
+.post-10 .entry-content h3 {
+	text-align: center;
+	font-size: 2rem;
+}
+
+@media only screen and (max-width: 425px) {
+	.home .wcorg-sponsor-level-jade,.home .wcorg-sponsor-level-gold, .home .wcorg-sponsor-level-silver, .home .wcorg-sponsor-level-bronze {
+		grid-template-columns: 1fr;
+	}
+	
+	.home .wcorg-sponsor-level-silver h2, .wcorg-sponsor-level-bronze h2 {
+		grid-column: initial;
+	}
+	
+	.home .widget_wpcom_social_media_icons_widget ul li a {
+		font-size: 3rem;
+		padding: 0 .5rem;
+	}
+	
+	/* The animation code */
+	@keyframes toggle-in {
+	from {
+		top: 0;
+		opacity: 0;
+	}
+	
+	to {
+		top: -100px;
+		opacity: 1;
+	}
+}
+
+.main-navigation.toggled-on:before {
+	content: '';
+	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-logoAsset-6.png');
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	z-index: 1028;
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: -100px;
+	left: 15%;
+	animation-name: toggle-in;
+	animation-duration: .5s;
+}	
+}
+
+@media screen and (min-width: 1440px) {
+	.panel-content:first-child {
+		padding-bottom: 350px;
+	}
+}
+
+/*
+Social media
+ */
+.widget_wpcom_social_media_icons_widget {
+	text-align: center;
+}
+
+.widget_wpcom_social_media_icons_widget ul li a {
+	font-size: 3rem;
+	padding: 0 1rem;
+}
+
+.widget_wpcom_social_media_icons_widget ul li a:hover {
+	color: orange !important;
+}
+
+a.genericon.genericon-facebook {
+	color: #3B5998;
+}
+
+a.genericon.genericon-twitter {
+	color: #00aced;
+}
+
+a.genericon.genericon-instagram {
+	color: transparent;
+	background: radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.home .wcorg-sponsor-level-jade h2 {
+	text-align: center;
+	background-color: #00A86B;
+	color: white !important;
+}
+
+.home #wcorg-sponsor-1373 img {
+	max-width: 50% !important;
+}
+
+.home .wcorg-sponsor-level-silver img {
+	max-width: 65% !important;
+}
+
+.home div#wcorg-sponsor-1199 img {
+	max-height: 67px;
+}
+
+.home .wcorg-sponsor-level-gold > div {
+	padding: 10px;
+}
+
+.home .wcorg-sponsor-level-bronze > div img {
+	max-width: 50% !important;
+}
+
+.page-slug-sponsors .wcorg-sponsor-level-jade h2, .page-slug-sponsors .wcorg-sponsor-level-gold h2, .wcorg-sponsor-level-in-kind h2,
+.page-slug-sponsors .wcorg-sponsor-level-silver h2, .page-slug-sponsors .wcorg-sponsor-level-bronze h2 {
+/* border-bottom: solid 1px darkgrey; */
+	margin-top: 40px;
+}
+
+.home .wcorg-sponsor-level-in-kind h2 {
+	grid-column: 1 / span 5;
+	background-color: limegreen;
+	color: white !important;
+}
+
+.page-slug-sponsors .wcorg-sponsor h3 {
+	text-shadow: none;
+	font-size: 14px !important;
+	text-align: right !important;
+	background: bisque;
+	width: fit-content;
+	padding: 5px 10px;
+	border-radius: 4px;
+	color: white !important;
+	float: right;
+}
+
+.page-slug-sponsors .wcorg-sponsor-level-jade .wcorg-sponsor h3 {
+	background-color: #26A165;
+}
+
+.page-slug-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor h3 {
+	background-color: #FBD128;
+}
+
+.page-slug-sponsors .wcorg-sponsor-level-silver .wcorg-sponsor h3 {
+	background-color: #B9B9B9;
+}
+
+.page-slug-sponsors .wcorg-sponsor-level-bronze .wcorg-sponsor h3 {
+	background-color: #C37432;
+}
+
+.home .wcorg-sponsor-level-in-kind {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	text-align: center;
+}
+
+.page-slug-sponsors div#wcorg-sponsor-2617 img {
+	max-width: 20% !important;
+}
+
+.page-slug-sponsors header.entry-header {
+	display: none;
+}
+
+.page-slug-sponsors .wcorg-sponsors img {
+	width: auto;
+	height: auto;
+	max-width: 35% !important;
+	max-height: initial !important;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.page-slug-sponsors .wcorg-sponsor:after {
+	margin-bottom: 50px !important;
+	padding-bottom: 25px;
+	content: '';
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	border-top: solid 1px lightgray;
+}
+
+.wcorg-sponsor-level-jade .wcorg-sponsor-description {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.wcorg-speaker-description .avatar {
+	float: left;
+	margin: 0 25px 40px 0;
+	border-radius: 50%;
+}
+
+.wcorg-session-description {
+	width: 100%;
+	clear: both;
+}
+
+.wcorg-session h2 {
+	clear: both;
+}
+
+.wcorg-session .avatar {
+	position: absolute;
+	right: 25px;
+	top: 60px;
+	border-radius: 50%;
+}
+
+@media only screen and (max-width: 720px) {
+	.page-slug-speakers .wrap {
+		margin: 2% 1%;
+		padding: 1%;
+	}
+	
+	.wcorg-speakers .wcorg-speaker {
+		padding: 1% 2% 100px;
+		min-height: 350px;
+		position: relative;
+	}
+	
+	.wcorg-speakers .wcorg-speaker .more-link {
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+	}
+}
+
+.wcorg-speakers .wcorg-speaker {
+	width: 99%;
+	margin: 1% auto;
+	background: #fff;
+	box-shadow: 0 5px 15px #ccc;
+	border-radius: 5px;
+	padding: 1% 2%;
+}
+
+.wcorg-session .more-link,.wcorg-speakers .more-link {
+	float: right;
+	background: #5CCDB1;
+	color: #fff;
+	padding: 0 20px;
+	border-radius: 3px;
+	clear: both;
+	height: 45px;
+	line-height: 0;
+}
+
+.wcorg-session-description .more-link {
+	position: absolute;
+	right: 25px;
+	bottom: 15px;
+}
+
+.wcb_speaker, .wcorg-session {
+	width: 96%;
+	margin: 1% auto;
+	background: #fff;
+	box-shadow: 0 5px 15px #ccc;
+	border-radius: 5px;
+	padding: 1% 2%;
+}
+
+.wcorg-session {
+	clear: both;
+	min-height: 200px;
+	position: relative;
+	padding: 10px 140px 20px 20px;
+}
+
+.speaker-avatar img {
+	float: left;
+	margin: 0 25px 80px 0;
+	border-radius: 50%;
+}
+
+@media only screen and (min-width: 920px) {
+	.wcorg-speakers .wcorg-speaker {
+		width: 48%;
+		float: left;
+		margin: 1%;
+		background: #fff;
+		box-shadow: 0 5px 15px #ccc;
+		border-radius: 5px;
+		padding: 1% 2%;
+		min-height: 290px;
+	}
+}
+
+/* Schedule */
+table.wcpt-schedule thead {
+	background: black;
+}
+
+table.wcpt-schedule thead tr th {
+	padding: 10px !important;
+	font-weight: 400;
+	color: white;
+}
+
+table.wcpt-schedule .entry-content a {
+	box-shadow: none;
+}
+
+.wcpt-schedule {
+	border: solid 1px #eee;
+	text-align: center;
+}
+
+.wcpt-schedule td {
+	padding: .1em;
+}
+
+.wcpt-schedule .wcpt-col-time, .wcpt-col-track {
+	text-align: center;
+}
+
+.wcpt-time {
+	text-align: center;
+	background: #f4f4f4;
+	color: #333;
+}
+
+.registro,.after-party {
+	background: #4ba4f3;
+	color: #fff;
+	text-align: center;
+}
+
+.open-event, .lunch, .break, .cierre {
+	background: #0059a9;
+	color: #fff;
+	text-align: center;
+}
+
+.wcpt-session-speakers {
+	font-size: 13px;
+	margin: 7px 0;
+	width: 100%;
+	display: block;
+	background: #daedff;
+	padding: 5px 0;
+}
+
+.wcb-session-cell-content {
+	position: relative;
+	min-height: 110px;
+}
+
+.global-session .wcb-session-cell-content {
+	position: relative;
+	min-height: 25px;
+}
+
+.kids .wcb-session-cell-content {
+	position: relative;
+	min-height: 65px;
+	height: auto;
+}
+
+.wcpt-session-speakers {
+	position: absolute;
+	bottom: 0;
+}
+
+.button {
+	display: inline-block;
+	padding: 12px 24px;
+	border-radius: 6px;
+	border: 0;
+	font-weight: bold;
+	letter-spacing: .0625em;
+	text-transform: uppercase;
+	background: #30398e;
+	color: #fff;
+}
+
+/* Add a rollover background colour but keep the text white */
+.button:hover,
+.button:focus,
+.button:active {
+	background: #b7e2e8;
+	color: #fff;
+}
+
+.general .tix-ticket-2482, .general .tix-ticket-2482, .general .tix-ticket-2483, 
+.general .tix-ticket-2634, .general .tix-ticket-2481, .general .tix-ticket-2480, .general .tix-ticket-2479,
+.general .tix-ticket-2977,
+.general .tix-ticket-2976,
+.kids .tix-ticket-2482, .kids .tix-ticket-2482, .kids .tix-ticket-2483,
+.kids .tix-ticket-2481, .kids .tix-ticket-2480,
+.kids .tix-ticket-2977,
+.kids .tix-ticket-2976,.kids .tix-ticket-2479 {
+	display: none;
+}
+
+.ticket-taller-ux-para-principiantes,  .ticket-taller-design-thinking, 
+.ticket-taller-js-para-wordpress, 
+.ticket-taller-impulsando-ventas-woocommerce-e-inteligencia-artificial, .ticket-wordpress-101,
+.ticket-taller-intro-a-react-js,
+.ticket-taller-js-para-wordpress {
+	display: none;
 }
 
 /* --------------------------------------------- Mediaqueries ----- */
