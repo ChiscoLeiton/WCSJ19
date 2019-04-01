@@ -524,7 +524,7 @@ span.tix-first {
 }
 
 .tix-field.tix-que-tema-te-interesa-mas {
-	display: none !important;
+	/*display: none !important;*/
 }
 
 .tix-field {
