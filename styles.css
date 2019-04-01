@@ -442,18 +442,18 @@ body.home .entry-header {
 
 /*Llamado*/
 
-.form-wcsj .wp-block-button__link {
+#contact-form-5068 .wp-block-button__link {
 	border-radius: 2px !important;
 }
 
-.form-wcsj .wp-block-button__link:hover, 
-.form-wcsj .wp-block-button__link:focus, 
-.form-wcsj .is-style-outline .wp-block-button__link:not(.has-background):hover, 
-.form-wcsj .is-style-outline .wp-block-button__link:not(.has-background):focus {
+#contact-form-5068 .wp-block-button__link:hover, 
+#contact-form-5068 .wp-block-button__link:focus, 
+#contact-form-5068 .is-style-outline .wp-block-button__link:not(.has-background):hover, 
+#contact-form-5068 .is-style-outline .wp-block-button__link:not(.has-background):focus {
     background-color: #b2e582 !important;
 }
 
-.form-wcsj input[type="tel"] {
+#contact-form-5068 input[type="tel"] {
 	width: 300px !important;
 }
 
