@@ -65,6 +65,10 @@ a {
     width: 100% !important;
 }
 
+.site-footer .widget-column.footer-widget-2 {
+	background-color: #0e8044;
+}
+
 #text-2 {
     width: 100% !important;
 	padding: 5em 2em 0;
@@ -146,8 +150,6 @@ button:hover, button:focus, input[type="button"]:hover, input[type="button"]:foc
 #blog_subscription-3,
 #recent-posts-3 {
 	padding: 3em 2em 0;
-	background-color: #0e8044;
-	min-height: 50vh;
 }
 
 #blog_subscription-3 h2,
