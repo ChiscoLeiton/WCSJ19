@@ -440,6 +440,23 @@ body.home .entry-header {
     content: url(https://2019.sanjose.wordcamp.org/files/2019/03/danta-sponsor.png);
 }
 
+/*Llamado*/
+
+.form-wcsj .wp-block-button__link {
+	border-radius: 2px !important;
+}
+
+.form-wcsj .wp-block-button__link:hover, 
+.form-wcsj .wp-block-button__link:focus, 
+.form-wcsj .is-style-outline .wp-block-button__link:not(.has-background):hover, 
+.form-wcsj .is-style-outline .wp-block-button__link:not(.has-background):focus {
+    background-color: #b2e582 !important;
+}
+
+.form-wcsj input[type="tel"] {
+	width: 300px !important;
+}
+
 
 /* --------------------------------------------- Mediaqueries ----- */
 
