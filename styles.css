@@ -581,6 +581,10 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 	    padding-left: 10%;
 	}
 
+	.site-footer .widget-column.footer-widget-2 {
+		background-color: #0e8044;
+	}
+
 	.list-social li {
 		width: 100%;
 	    max-width: 80%;
