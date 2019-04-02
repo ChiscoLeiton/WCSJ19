@@ -483,8 +483,16 @@ body.home .entry-header {
 span.tix-first {
 	font-size: 1.5rem;
 	display: block;
-	color: #30398d;
+	color: #08302f;
 	font-weight: 900;
+}
+
+span.tix-last {
+	color: #08302f;
+	font-weight: 900;
+	margin-top: -15px !important;
+	display: block;
+	margin-bottom: 1rem;
 }
 
 #tix-attendees .tix-columns-4 li {
@@ -523,9 +531,6 @@ span.tix-first {
 	background-size: 37%, contain, 15%, 30%;
 }*/
 
-#tix-attendees .tix-field {
-}
-
 #tix-attendees .tix-columns-4 a.tix-field {
     box-shadow: none;
 	border-bottom: none !important;
@@ -541,14 +546,6 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 	background-color: transparent;
 	color: #0e8044;
 	text-transform: lowercase;
-}
-
-span.tix-last {
-	color: #000;
-	font-weight: 900;
-	margin-top: -10px !important;
-	display: block;
-	margin-bottom: 1rem;
 }
 
 .tix-field.tix-de-donde-nos-acompana {
