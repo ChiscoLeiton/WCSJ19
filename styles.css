@@ -604,6 +604,12 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 	#recent-posts-3 ul {
 	    width: 100%;
 	}
+
+	#tix-attendees .tix-columns-3 li {
+		min-height: 405px;
+		background-image: url('https://2019.sanjose.wordcamp.org/files/2019/03/Wappu.png'), url('https://2019.sanjose.wordcamp.org/files/2019/04/tix-bg-attendees-mobile.jpg');
+		width: 100% !important;
+	}
 }
 
 
