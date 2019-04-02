@@ -495,6 +495,12 @@ body.home .entry-header {
 	background-position: 50% 95%, top, 7% 64%, 10% 70%;
 }*/
 
+/*#tix-attendees .tix-columns-4 li:nth-child(4n+1) {
+	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-logoAsset-8.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/card-chauAsset-9.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-logoAsset-6.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-linesAsset-7.png');
+	background-position: 50% 95%, top, 7% 64%, 96% 78%;
+	background-size: 37%, contain, 15%, 30%;
+}*/
+
 span.tix-first {
 	font-size: 1.5rem;
 	display: block;
@@ -517,12 +523,6 @@ span.tix-first {
 	margin-right: 1rem !important;
 }
 
-/*#tix-attendees .tix-columns-4 li:nth-child(4n+1) {
-	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-logoAsset-8.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/card-chauAsset-9.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-logoAsset-6.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-linesAsset-7.png');
-	background-position: 50% 95%, top, 7% 64%, 96% 78%;
-	background-size: 37%, contain, 15%, 30%;
-}*/
-
 #tix-attendees .tix-field {
 	border-bottom: none !important;
 }
@@ -540,11 +540,17 @@ span.tix-first {
 	text-align: center;
 }
 
+.tix-field.tix-attendee-name {
+	color: #08302f;
+}
+
 a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 	background-color: transparent;
-	color: red;
+	color: #b2e582;
 	text-transform: lowercase;
 }
+
+a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url
 
 span.tix-last {
 	color: #30398d;
