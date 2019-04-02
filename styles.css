@@ -512,7 +512,7 @@ span.tix-last {
 	background-position: 50% 95%, top;
 	margin-bottom: 2rem !important;
 	border-radius: 6px;
-	/*margin-right: 1rem !important;*/
+	margin-right: 1rem !important;
 }
 
 /*#tix-attendees .tix-columns-4 li:nth-child(even) {
