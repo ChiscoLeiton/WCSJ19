@@ -512,7 +512,7 @@ span.tix-last {
 	background-position: 50% 95%, top;
 	margin-bottom: 2rem !important;
 	border-radius: 6px;
-	margin-right: 1rem !important;
+	/*margin-right: 1rem !important;*/
 }
 
 /*#tix-attendees .tix-columns-4 li:nth-child(even) {
@@ -547,18 +547,18 @@ span.tix-last {
 	display: none !important;
 }
 
-a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
-	background-color: transparent;
-	color: #0e8044;
-	text-transform: lowercase;
-}
-
 .tix-field.tix-de-donde-nos-acompana {
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 10px !important;
 	letter-spacing: 1px;
 	color: #01c1f3;
+}
+
+a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
+	background-color: transparent;
+	color: #0e8044;
+	text-transform: lowercase;
 }
 
 
