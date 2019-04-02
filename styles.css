@@ -598,6 +598,10 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 	    width: 100%;
 	}
 
+	#recent-posts-3 {
+	    padding-bottom: 30px;
+	}
+
 	#blog_subscription-3,
 	#recent-posts-3 {
 		background-color: #0e8044;
