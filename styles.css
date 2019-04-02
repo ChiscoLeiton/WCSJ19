@@ -517,11 +517,15 @@ span.tix-first {
 	margin-right: 1rem !important;
 }
 
-#/*tix-attendees .tix-columns-4 li:nth-child(4n+1) {
+/*#tix-attendees .tix-columns-4 li:nth-child(4n+1) {
 	background-image: url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-logoAsset-8.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/card-chauAsset-9.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-logoAsset-6.png'), url('https://2018.sanjose.wordcamp.org/files/2018/03/tix-linesAsset-7.png');
 	background-position: 50% 95%, top, 7% 64%, 96% 78%;
 	background-size: 37%, contain, 15%, 30%;
 }*/
+
+#tix-attendees .tix-field {
+	border-bottom: none !important;
+}
 
 #tix-attendees .tix-columns-4 a.tix-field {
     box-shadow: none;
@@ -534,7 +538,6 @@ span.tix-first {
 .tix-field {
 	margin-left: 0 !important;
 	text-align: center;
-	border-bottom: none !important;
 }
 
 a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
