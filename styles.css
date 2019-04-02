@@ -501,7 +501,7 @@ span.tix-last {
 	margin-bottom: 1rem;
 }
 
-#tix-attendees .tix-columns-4 li {
+#tix-attendees .tix-columns-3 li {
 	min-height: 355px;
 	padding: 1rem !important;
 	padding-bottom: 6rem !important;
@@ -537,7 +537,7 @@ span.tix-last {
 	background-size: 37%, contain, 15%, 30%;
 }*/
 
-#tix-attendees .tix-columns-4 a.tix-field {
+#tix-attendees .tix-columns-3 a.tix-field {
     box-shadow: none;
 	border-bottom: none !important;
 	margin-left: 0 !important;
