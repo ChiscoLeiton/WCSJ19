@@ -480,18 +480,24 @@ body.home .entry-header {
 	float: none;
 }
 
+#tix-attendees .tix-field {
+    margin-left: 0 !important;
+    width: 100%;
+    text-align: center !important;
+}
+
 span.tix-first {
-	font-size: 1.5rem;
-	display: block;
+	font-size: 1.5em;
 	color: #08302f;
+	display: block;
 	font-weight: 900;
 }
 
 span.tix-last {
 	color: #08302f;
+	display: block;
 	font-weight: 900;
 	margin-top: -15px !important;
-	display: block;
 	margin-bottom: 1rem;
 }
 
