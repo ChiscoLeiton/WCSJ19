@@ -325,6 +325,11 @@ body.home .entry-header {
     margin: 0 auto;
 }
 
+.icon-news {
+    padding-top: .5em;
+	
+}
+
 .venue-section {
 	background-color: #0e8044;
 }
