@@ -345,7 +345,10 @@ body.home .entry-header {
 
 .news-section li a {
     font-weight: bold;
-    padding-bottom: 10px;
+}
+
+.news-section li time {
+    color: #000;
 }
 
 .venue-section {
