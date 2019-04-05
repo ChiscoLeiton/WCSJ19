@@ -330,6 +330,19 @@ body.home .entry-header {
 	
 }
 
+.news-section li {
+    padding: 10px 10px 30px;
+    border: 3px solid #000;
+    border-radius: 2.5px;
+}
+
+.news-section li:before {
+    content: url(https://2019.sanjose.wordcamp.org/files/2019/04/new-img-big.png);
+    display: inline-block;
+    padding-right: 10px;
+    float: left;
+}
+
 .venue-section {
 	background-color: #0e8044;
 }
