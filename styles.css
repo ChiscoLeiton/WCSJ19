@@ -343,6 +343,11 @@ body.home .entry-header {
     float: left;
 }
 
+.news-section li a {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
 .venue-section {
 	background-color: #0e8044;
 }
