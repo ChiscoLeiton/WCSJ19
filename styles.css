@@ -331,7 +331,7 @@ body.home .entry-header {
 }
 
 .news-section {
-	padding-left: 15px;
+	padding-left: 15px !important;
 }
 
 .news-section li {
