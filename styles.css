@@ -330,6 +330,10 @@ body.home .entry-header {
 	
 }
 
+.news-section {
+	padding-left: 15px;
+}
+
 .news-section li {
     padding: 10px 10px 30px;
     border: 4px solid #000;
