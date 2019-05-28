@@ -607,12 +607,12 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
     float: left;
     border-radius: 50%;
     display: inline-block;
-    background-image: url(https://2019.sanjose.wordcamp.org/files/2019/05/bg-organizer.png);
+    /* background-image: url(https://2019.sanjose.wordcamp.org/files/2019/05/bg-organizer.png); */
 }
 
 .wcorg-organizer .wcorg-organizer-description p {
     max-width: 85%;
-    float: left;
+    float: right;
     padding-left: 25px;
     display: inline-flex;
 }
