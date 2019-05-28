@@ -678,13 +678,13 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 
 	.wcorg-organizer .wcorg-organizer-description img.avatar {
 	    max-width: 100%;
-	    clear: both;
+	    float: unset;
 	    margin: 0 auto;
 	}
 
 	.wcorg-organizer .wcorg-organizer-description p {
 	    max-width: 100%;
-	    clear: both;
+	    float: unset;
 	    padding-left: 5px;
 	}
 }
