@@ -686,6 +686,7 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 	    max-width: 100%;
 	    float: unset;
 	    padding-left: 5px;
+	    padding-top: 25px;
 	}
 }
 
