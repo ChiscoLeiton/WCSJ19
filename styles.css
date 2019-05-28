@@ -593,6 +593,34 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 }
 
 
+/* --------------------------------------------- Organizadores ----- */
+
+.wcorg-organizer h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1em;
+    color: #0e8044;
+}
+
+.wcorg-organizer .wcorg-organizer-description img.avatar {
+    max-width: 15%;
+    float: left;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.wcorg-organizer .wcorg-organizer-description img.avatar:before {
+    background-image: url(https://2019.sanjose.wordcamp.org/files/2019/05/bg-organizer.png);
+}
+
+.wcorg-organizer .wcorg-organizer-description p {
+    max-width: 85%;
+    float: left;
+    padding-left: 25px;
+    display: inline-flex;
+}
+
+
 /* --------------------------------------------- Mediaqueries ----- */
 
 @media only screen and (max-width: 425px) {
