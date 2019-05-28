@@ -607,9 +607,6 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
     float: left;
     border-radius: 50%;
     display: inline-block;
-}
-
-.wcorg-organizer .wcorg-organizer-description img.avatar:before {
     background-image: url(https://2019.sanjose.wordcamp.org/files/2019/05/bg-organizer.png);
 }
 
