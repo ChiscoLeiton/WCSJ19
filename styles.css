@@ -652,6 +652,9 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
     padding-top: 0px;
     width: 100%;
     text-align: right;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #d48cf8;
 }
 
 .wcorg-speaker .wcorg-speaker-description a.more-link:before {
