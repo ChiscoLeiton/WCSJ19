@@ -641,9 +641,12 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
     padding-left: 25px;
 }
 
-.wcorg-speaker .wcorg-speaker-description p:last-child  {
-    padding-top: 20px;
-    border-top: 2px solid #000;
+.wcorg-speaker .wcorg-speaker-description p a {
+    text-align: left;
+    color: green;
+    text-transform: inherit;
+    font-weight: normal;
+    width: unset;
 }
 
 .wcorg-speaker .wcorg-speaker-description a {
