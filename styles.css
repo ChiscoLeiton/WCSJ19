@@ -640,6 +640,11 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
     padding-left: 25px;
 }
 
+.wcorg-speaker .wcorg-speaker-description p:first-child {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000;
+}
+
 
 /* --------------------------------------------- Mediaqueries ----- */
 
