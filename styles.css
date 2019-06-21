@@ -636,6 +636,7 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 
 .wcorg-speaker .wcorg-speaker-description p {
     max-width: 85%;
+    width: 650px;
     float: right;
     padding-left: 25px;
 }
@@ -648,6 +649,13 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 .wcorg-speaker .wcorg-speaker-description a {
     display: inline-block;
     box-shadow: none;
+    padding-top: 0px;
+    width: 100%;
+    text-align: right;
+}
+
+.wcorg-speaker .wcorg-speaker-description a.more-link:before {
+    padding-top: 0;
 }
 
 
