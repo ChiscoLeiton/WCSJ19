@@ -617,6 +617,30 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 }
 
 
+/* --------------------------------------------- Ponentes ----- */
+
+.wcorg-speaker h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1em;
+    color: #0e8044;
+}
+
+.wcorg-speaker .wcorg-speaker-description img.avatar {
+    max-width: 15%;
+    float: left;
+    border-radius: 50%;
+    display: block;
+    background-image: url(https://2019.sanjose.wordcamp.org/files/2019/05/bg-organizer.png);
+}
+
+.wcorg-speaker .wcorg-speaker-description p {
+    max-width: 85%;
+    float: right;
+    padding-left: 25px;
+}
+
+
 /* --------------------------------------------- Mediaqueries ----- */
 
 @media only screen and (max-width: 425px) {
