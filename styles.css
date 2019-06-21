@@ -663,10 +663,13 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 
 /* -- Profile -- */
 
+.speaker-avatar {
+    margin-bottom: 20px; 
+}
+
 .speaker-avatar img.avatar {
     border-radius: 50%;
     display: block;
-    margin-bottom: 20px; 
     margin: 0 auto;
 }
 
