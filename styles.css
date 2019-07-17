@@ -272,7 +272,7 @@ body:not(.home) .wp-custom-header:before {
 
 body.home .panel-content .wrap {
     max-width: 100% !important;
-	padding-left: 0 !important;
+    padding-left: 0 !important;
     padding-right: 0 !important;
 }
 
@@ -683,7 +683,7 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 
 /* --------------------------------------------- Programa ----- */
 
-body.page-id-7383 .panel-content .wrap {
+body.page-id-7383 .site-content .wrap {
     max-width: 100% !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
