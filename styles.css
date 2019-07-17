@@ -694,9 +694,13 @@ body.page-id-7383 .site-content .wrap .content-area {
 }
 
 body.page-id-7383 .entry-header {
-	text-align: center;
+    text-align: center;
 }
 
+.wcpt-schedule thead {
+    background-color: #000;
+    color: #fff;
+}
 
 
 
