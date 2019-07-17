@@ -681,6 +681,21 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 }
 
 
+/* --------------------------------------------- Programa ----- */
+
+body.page-id-7383 .panel-content .wrap {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+body.page-id-7383 .entry-header {
+	text-align: center;
+}
+
+
+
+
 /* --------------------------------------------- Mediaqueries ----- */
 
 @media only screen and (max-width: 425px) {
