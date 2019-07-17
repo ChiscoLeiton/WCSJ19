@@ -697,6 +697,11 @@ body.page-id-7383 .entry-header {
     text-align: center;
 }
 
+body.page-id-7383 h2 {
+    color: #0e8044;
+    text-transform: uppercase;
+}
+
 .wcpt-schedule tr:nth-child(even){
     background-color: #f2f2f2;
 }
@@ -721,12 +726,13 @@ body.page-id-7383 .entry-header {
     color: #fff;
 }
 
-.caf-snacks a {
+.clausura-sbado {
+    background-color: #d48cf8;
     color: #fff;
 }
 
-.clausura-sbado {
-    background-color: #d48cf8;
+.caf-snacks a,
+.clausura-sbado a {
     color: #fff;
 }
 
