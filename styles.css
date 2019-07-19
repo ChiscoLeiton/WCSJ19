@@ -645,7 +645,7 @@ a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
 
 .wcorg-speaker .wcorg-speaker-description p {
     max-width: 85%;
-    /* width: 650px; */
+    width: 960px;
     float: right;
     padding-left: 25px;
 }
