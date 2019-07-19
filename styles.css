@@ -9,6 +9,10 @@ body.page .site-content .wrap {
     padding-right: 0 !important;
 }
 
+body.page .site-content .wrap .content-area {
+    max-width: 960px !important;
+}
+
 h1 {
 	font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
