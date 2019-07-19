@@ -42,6 +42,15 @@ a {
     background: #fff !important;
 }
 
+.main-navigation .menu-item-6169 {
+	border: 0;
+	background-color: #000;
+}
+
+.main-navigation .menu-item-6169 a {
+	color: #fff !important;
+}
+
 .navigation-top a {
 	color: #000000 !important;
     font-family: 'Oswald', sans-serif;
@@ -469,6 +478,12 @@ body.home .entry-header {
 	
 }
 
+.wcorg-sponsor-level-pizote h2 {
+	margin: 0 auto;
+	width: 180px;
+	padding-bottom: 30px;
+}
+
 .wcorg-sponsor-level-oro h2 {
     content: url(https://2019.sanjose.wordcamp.org/files/2019/03/quetzal-sponsor.png);
 }
@@ -479,6 +494,10 @@ body.home .entry-header {
 
 .wcorg-sponsor-level-bronce h2 {
     content: url(https://2019.sanjose.wordcamp.org/files/2019/03/danta-sponsor.png);
+}
+
+.wcorg-sponsor-level-pizote h2 {
+	content: url('https://2019.sanjose.wordcamp.org/files/2019/06/pizote-sponsor.png');
 }
 
 /*Llamado*/
