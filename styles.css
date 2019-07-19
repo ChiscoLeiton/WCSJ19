@@ -752,6 +752,13 @@ body.page-id-7383 h2 {
 }
 
 
+/* --------------------------------------------- Tiquetes ----- */
+
+#tix-coupon-container input[type="submit"] {
+        margin-top: 15px;
+}
+
+
 
 /* --------------------------------------------- Mediaqueries ----- */
 
