@@ -790,7 +790,7 @@ body.page-id-7383 h2 {
 @media only screen and (max-width: 425px) {	
 	
 	body.page .site-content .wrap {
-	    max-width: 80% !important;
+	    max-width: 90% !important;
 	    margin: 0 auto;
 	}
 
@@ -800,7 +800,7 @@ body.page-id-7383 h2 {
 
 	.qa-section,
 	.info-section {
-		padding: 1em;
+	    padding: 1em;
 	}
 
 	.venue-section .venue-icon,
@@ -810,10 +810,10 @@ body.page-id-7383 h2 {
 	}
 
 	.list-social li {
-		width: 100%;
+	    width: 100%;
 	    max-width: 80%;
 	    margin: 0 auto;
-   		padding: 30px;
+   	    padding: 30px;
 	}
 
 	.list-social li i {
@@ -832,7 +832,7 @@ body.page-id-7383 h2 {
 
 	#blog_subscription-3,
 	#recent-posts-3 {
-		background-color: #0e8044;
+	    background-color: #0e8044;
 	}
 
 	#blog_subscription-3 .widget-title,
@@ -843,9 +843,9 @@ body.page-id-7383 h2 {
 	}
 
 	#tix-attendees .tix-columns-3 li {
-		min-height: 405px;
-		background-image: url('https://2019.sanjose.wordcamp.org/files/2019/03/Wappu.png'), url('https://2019.sanjose.wordcamp.org/files/2019/04/tix-bg-attendees-mobile.jpg');
-		width: 100% !important;
+	    min-height: 405px;
+	    background-image: url('https://2019.sanjose.wordcamp.org/files/2019/03/Wappu.png'), url('https://2019.sanjose.wordcamp.org/files/2019/04/tix-bg-attendees-mobile.jpg');
+	    width: 100% !important;
 	}
 
 
