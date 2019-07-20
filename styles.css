@@ -3,6 +3,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: .95em;
 }
+
 body.page .site-content .wrap {
     max-width: 100% !important;
     padding-left: 0 !important;
@@ -786,7 +787,12 @@ body.page-id-7383 h2 {
 
 /* --------------------------------------------- Mediaqueries ----- */
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 425px) {	
+	
+	body.page .site-content .wrap {
+	    max-width: 80% !important;
+	    margin: 0 auto;
+	}
 
 	.quote-section {
 	    width: 90%;	
